@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # PyWiWi - Windows Native Wifi Api Python library.
 # Copyright (C) 2013 - Andres Blanco
 #
@@ -20,6 +23,9 @@
 #
 
 from __future__ import print_function
+import sys
+sys.path.append('../')
+
 from WindowsWifi import getWirelessInterfaces
 from WindowsWifi import getWirelessNetworkBssList
 
